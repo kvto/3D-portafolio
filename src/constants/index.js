@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    henry,
+    security,
+    techno,
     carrent,
     jobit,
     tripguide,
     threejs,
+    innova
   } from "../assets";
   
   export const navLinks = [
@@ -116,10 +116,10 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
+      title: "Web Developer",
+      company_name: "Innovascientific",
+      icon: techno,
+      iconBg: "#E6DEDD",
       date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -129,9 +129,9 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer & 3D Developer",
       company_name: "Tesla",
-      icon: tesla,
+      icon: innova,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
@@ -144,8 +144,8 @@ import {
     {
       title: "Web Developer",
       company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: security,
+      iconBg: "#E6DEDD",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -157,7 +157,7 @@ import {
     {
       title: "Full stack Developer",
       company_name: "Meta",
-      icon: meta,
+      icon: henry,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [

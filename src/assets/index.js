@@ -25,10 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import innova from "./company/innova.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import henry from "./company/henry.png";
+import security from "./company/security.png";
+
+import techno from "./company/techno.png"
 
 export {
   logo,
@@ -55,8 +59,12 @@ export {
   meta,
   shopify,
   starbucks,
+  innova,
   tesla,
   carrent,
   jobit,
   tripguide,
+  henry,
+  security,
+  techno
 };
