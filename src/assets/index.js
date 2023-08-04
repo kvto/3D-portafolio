@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import unity from "./tech/unity.png";
+import postgressql from "./tech/postgressql.png";
+import wordpress from "./tech/wordpress.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -32,10 +35,25 @@ import tripguide from "./tripguide.png";
 import henry from "./company/henry.png";
 import security from "./company/security.png";
 
+import game from "./game.png";
+import mantenimiento from "./mantenimiento.png";
+import store1 from "./store1.png";
+import store2 from "./store2.png";
+import virtualstore from "./virtualstore.png";
+import virtualdashboard from "./virtualdashboard.png";
+import vr from './3d.png'
+
 import techno from "./company/techno.png"
 
 export {
   logo,
+  game,
+  mantenimiento,
+  store1,
+  store2,
+  virtualstore,
+  virtualdashboard,
+  vr,
   backend,
   creator,
   mobile,
@@ -66,5 +84,8 @@ export {
   tripguide,
   henry,
   security,
-  techno
+  techno,
+  unity,
+  postgressql,
+  wordpress
 };

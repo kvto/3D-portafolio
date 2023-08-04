@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
-import React, {Suspense} from 'react'
+import {Suspense} from 'react'
 import { Canvas } from '@react-three/fiber'
 import {
   Decal, Float, OrbitControls, Preload, useTexture
@@ -23,7 +23,11 @@ const Ball = (props) => {
       polygonOffsetFactor={-5}
       flatShading/>
 
-      <Decal />
+      <Decal 
+      position={[0, 0, 1]}
+      rotation={[2 * Math.PI, 0, 6.25]}
+      flatShading
+      map={decal}/>
       </mesh>
     </Float>
   )

@@ -18,11 +18,17 @@ import {
     henry,
     security,
     techno,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-    innova
+    innova,
+    unity,
+    wordpress,
+    postgressql,
+    game,
+    mantenimiento,
+    store1,
+    store2,
+    virtualstore,
+    virtualdashboard,
+    vr,
   } from "../assets";
   
   export const navLinks = [
@@ -97,8 +103,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Wordpress",
+      icon: wordpress,
     },
     {
       name: "git",
@@ -111,6 +117,14 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgressql,
+    },
+    {
+      name: "Unity",
+      icon: unity,
     },
   ];
   
@@ -196,9 +210,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Project created Videogame 2D! (Unity C# - Abril 2023)",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Creation of a 2D video game, in which a character will be controlled (with 3different skins) with the mission of collecting different types of fruits and defeating the various enemies. With various skill challenges.",
       tags: [
         {
           name: "react",
@@ -213,13 +227,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: game,
+      source_code_link: "https://github.com/kvto/Videogame2D",
     },
     {
-      name: "Job IT",
+      name: "Project created Virtual Reality mobile application! (Unity C# & Vuforia - Febrero 2023)",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Creation of a virtual reality application, where through various images the mobile can create a 3D model simply by bringing it closer with its integrated camera. Adding various scripts which are responsible for the movement of various 3D models, as well as the rotation of various elements.",
       tags: [
         {
           name: "react",
@@ -234,13 +248,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: vr,
+      source_code_link: "https://github.com/kvto/ARProject2",
     },
     {
-      name: "Trip Guide",
+      name: "Page Mantenimientoindustriales (Wordpress & Elementor - April 2023)",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Using the template and component manager as Elementor was, plugins to manage and create forms, sliders; as well as create different CSS codes to locate the components in the correct place taking into account all the dimensions of the different enabled devices that users can choose to enter the aforementioned page (mobile, pc, laptop).",
       tags: [
         {
           name: "nextjs",
@@ -255,8 +269,92 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mantenimiento,
+      source_code_link: "https://mantenimientoindustriales.com/",
+    },
+    {
+      name: "Project created website Handmade Soaps, Shampoos and Conditioners! (Angular+11 - Octuber 2022)",
+      description:
+        "Development of a SPA (application whose purpose is to show all the products in our inventory corresponding to handmade soaps, conditioners and shampoos in order to finalize the purchase of the same, using methods such as pick-up in our stores or delivery)",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: store1,
+      source_code_link: "https://github.com/kvto/2022-storeAngular",
+    },
+    {
+      name: "Project Virtual Store - Ecommerce (React.js - June 2022)",
+      description:
+        "Development of an Ecommerce (application in charge of making payments)",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: store2,
+      source_code_link: "https://github.com/kvto/2022-ecommerce",
+    },
+    {
+      name: "Project created Store! (Typescript - Abril 2023)",
+      description:
+        "Creation of a virtual store as well as its control panel which serves to customize products, categories, prices, etc. It also has a visualization panel for sales, its respective checkout and an implement to use as an API",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: virtualstore,
+      source_code_link: "https://github.com/kvto/ecommerce-store",
+    },
+    {
+      name: "Project created Admins Dashboard! (Typescript - Abril 2023)",
+      description:
+        "Creation of a virtual store as well as its control panel which serves to customize products, categories, prices, etc. It also has a visualization panel for sales, its respective checkout and an implement to use as an API",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: virtualdashboard,
+      source_code_link: "https://github.com/kvto/ecommerce-store",
     },
   ];
   
