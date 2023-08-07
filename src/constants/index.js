@@ -184,26 +184,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Kevin proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
-      company: "Acme Co",
+      company: "Techno Standard",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Kevin does.",
       name: "Chris Brown",
       designation: "COO",
-      company: "DEF Corp",
+      company: "Innovascientific",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Kevin optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "Security Solutions",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -215,15 +215,15 @@ import {
         "Creation of a 2D video game, in which a character will be controlled (with 3different skins) with the mission of collecting different types of fruits and defeating the various enemies. With various skill challenges.",
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSharp",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Vuforia",
           color: "pink-text-gradient",
         },
       ],
@@ -236,15 +236,15 @@ import {
         "Creation of a virtual reality application, where through various images the mobile can create a 3D model simply by bringing it closer with its integrated camera. Adding various scripts which are responsible for the movement of various 3D models, as well as the rotation of various elements.",
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSharp",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Vuforia",
           color: "pink-text-gradient",
         },
       ],
@@ -257,15 +257,15 @@ import {
         "Using the template and component manager as Elementor was, plugins to manage and create forms, sliders; as well as create different CSS codes to locate the components in the correct place taking into account all the dimensions of the different enabled devices that users can choose to enter the aforementioned page (mobile, pc, laptop).",
       tags: [
         {
-          name: "nextjs",
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -278,15 +278,15 @@ import {
         "Development of a SPA (application whose purpose is to show all the products in our inventory corresponding to handmade soaps, conditioners and shampoos in order to finalize the purchase of the same, using methods such as pick-up in our stores or delivery)",
       tags: [
         {
-          name: "react",
+          name: "Angular+11",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Restapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -299,15 +299,15 @@ import {
         "Development of an Ecommerce (application in charge of making payments)",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -320,15 +320,15 @@ import {
         "Creation of a virtual store as well as its control panel which serves to customize products, categories, prices, etc. It also has a visualization panel for sales, its respective checkout and an implement to use as an API",
       tags: [
         {
-          name: "react",
+          name: "Typescript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Next.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Prisma",
           color: "pink-text-gradient",
         },
       ],
@@ -341,15 +341,15 @@ import {
         "Creation of a virtual store as well as its control panel which serves to customize products, categories, prices, etc. It also has a visualization panel for sales, its respective checkout and an implement to use as an API",
       tags: [
         {
-          name: "react",
+          name: "Typescript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Next.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Prisma",
           color: "pink-text-gradient",
         },
       ],
