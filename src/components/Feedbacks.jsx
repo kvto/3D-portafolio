@@ -1,8 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion"
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
-import { fadeIn, textVariant } from '../utils/motion';
+import { fadeIn } from '../utils/motion';
 import { testimonials } from '../constants'; 
 
 const FeedbackCard = ({ index, testimonial, name, 
