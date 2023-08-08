@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import henry from "./company/henry.png";
 import security from "./company/security.png";
 
+import image from "./image.jpg";
 import game from "./game.png";
 import mantenimiento from "./mantenimiento.png";
 import store1 from "./store1.png";
@@ -87,5 +88,6 @@ export {
   techno,
   unity,
   postgressql,
-  wordpress
+  wordpress,
+  image
 };

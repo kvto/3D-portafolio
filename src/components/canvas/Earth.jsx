@@ -1,8 +1,11 @@
-import React from 'react'
+import {image} from './../../assets'
 
 const Earth = () => {
   return (
-    <div>Earth</div>
+    <img 
+          src={image} 
+          alt="tecnology"
+          className="w-full h-full object-cover rounded-2xl"/>
   )
 }
 
