@@ -213,26 +213,6 @@ import {
   
   const projects = [
     {
-      name: "Project created Simple Nike Store Page! (React + Vite - September 2023)",
-      description:"Simple page dedicated to providing information regarding the nike depostiva brand, the page is divided into the most popular products, offers, products in general, testimonials from different customers",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Typescript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: nike,
-      source_code_link: "https://app-nike.vercel.app/",
-    },
-    {
       name: "Project created Stamping emulator! (React + Vite - September 2023)",
       description:"Page in which you can simulate the process of prints on a t-shirt, managing to visualize the printing on textile vinyl before carrying out the process of printing, cutting and pasting",
       tags: [
