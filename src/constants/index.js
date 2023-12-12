@@ -29,6 +29,9 @@ import {
     virtualstore,
     virtualdashboard,
     vr,
+    pizza,
+    estampado,
+    nike
   } from "../assets";
   
   export const navLinks = [
@@ -209,6 +212,66 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Project created Simple Nike Store Page! (React + Vite - September 2023)",
+      description:"Simple page dedicated to providing information regarding the nike depostiva brand, the page is divided into the most popular products, offers, products in general, testimonials from different customers",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nike,
+      source_code_link: "https://app-nike.vercel.app/",
+    },
+    {
+      name: "Project created Stamping emulator! (React + Vite - September 2023)",
+      description:"Page in which you can simulate the process of prints on a t-shirt, managing to visualize the printing on textile vinyl before carrying out the process of printing, cutting and pasting",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: estampado,
+      source_code_link: "https://threejs-ecru.vercel.app/",
+    },
+    {
+      name: "Project created Page Delivery! (React - Augost 2023)",
+      description:"Creation of a website dedicated to ordering pizzas mainly, with different sections, such as products, orders, and others. Using primarily React, Next.js and Tailwind as technologies.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pizza,
+      source_code_link: "https://app-delivery-pied.vercel.app/",
+    },
     {
       name: "Project created Videogame 2D! (Unity C# - Abril 2023)",
       description:

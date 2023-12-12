@@ -43,8 +43,10 @@ import store2 from "./store2.png";
 import virtualstore from "./virtualstore.png";
 import virtualdashboard from "./virtualdashboard.png";
 import vr from './3d.png'
-
+import pizza from "./pizza.png"
+import estampado from "./estampado.png"
 import techno from "./company/techno.png"
+import nike from "./nike.png"
 
 export {
   logo,
@@ -89,5 +91,8 @@ export {
   unity,
   postgressql,
   wordpress,
-  image
+  image,
+  pizza,
+  estampado,
+  nike
 };
