@@ -133,15 +133,16 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Techno Standard",
-      icon: techno,
+      title: "Web Developer, Technical Support ",
+      company_name: "Brezza",
+      icon: innova,
       iconBg: "#E6DEDD",
-      date: "Apr 2023 - Present",
+      date: "Apr 2024 - Present",
       points: [
-        "Creation of web pages corresponding to the products designated by the organization.",
-        "Maintain the correct order regarding SEO and email campaign sending activity.",
-        "Creation and design of different banners with respect to the products and pages made.",
+        "Creation of different web pages for the various publishers.",
+        "Management of corporate emails.",
+        "Creation of policies for access control of all users.",
+        "Creation of 3D applications which generated certain 3D models by scanning different types of images"
       ],
     },
     {
@@ -155,6 +156,18 @@ import {
         "Management of corporate emails.",
         "Creation of policies for access control of all users.",
         "Creation of 3D applications which generated certain 3D models by scanning different types of images"
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Techno Standard",
+      icon: techno,
+      iconBg: "#E6DEDD",
+      date: "Apr 2023 - Oct 2023",
+      points: [
+        "Creation of web pages corresponding to the products designated by the organization.",
+        "Maintain the correct order regarding SEO and email campaign sending activity.",
+        "Creation and design of different banners with respect to the products and pages made.",
       ],
     },
     {
