@@ -47,6 +47,7 @@ import pizza from "./pizza.png"
 import estampado from "./estampado.png"
 import techno from "./company/techno.png"
 import nike from "./nike.png"
+import brezza from "./brezza.png"
 
 export {
   logo,
@@ -94,5 +95,6 @@ export {
   image,
   pizza,
   estampado,
-  nike
+  nike,
+  brezza
 };

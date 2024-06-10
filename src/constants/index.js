@@ -31,7 +31,8 @@ import {
     vr,
     pizza,
     estampado,
-    nike
+    nike,
+    brezza
   } from "../assets";
   
   export const navLinks = [
@@ -135,7 +136,7 @@ import {
     {
       title: "Web Developer, Technical Support ",
       company_name: "Brezza",
-      icon: innova,
+      icon: brezza,
       iconBg: "#E6DEDD",
       date: "Apr 2024 - Present",
       points: [
