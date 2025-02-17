@@ -231,6 +231,22 @@ import {
   
   const projects = [
     {
+      name: "Projects using Wordpress",
+      description:"Using the template and component manager as Elementor was, plugins to manage and create forms, sliders; as well as create different CSS codes to locate the components in the correct place taking into account all the dimensions of the different enabled devices that users can choose to enter the aforementioned page (mobile, pc, laptop), in addition to performing the respective SEO process, verify the loading speed through Google tools and its respective positioning in various search engines.",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Elementor",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Medical,
+      source_code_link: "https://github.com/kvto/Wordpress/blob/main/README.md",
+    },
+    {
       name: "Project created Medical Plataform! (Next 13 + React - Octuber 2024)",
       description:"Creation of a platform where you can schedule medical appointments with different types of doctors, in addition to having an administration panel where you can cancel appointments.",
       tags: [
