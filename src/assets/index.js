@@ -49,6 +49,7 @@ import techno from "./company/techno.png"
 import nike from "./nike.png"
 import brezza from "./brezza.png"
 import Course from "./Course.jpeg"
+import Financial from "./Financial.jpeg"
 export {
   logo,
   game,
@@ -97,5 +98,6 @@ export {
   pizza,
   estampado,
   nike,
-  brezza
+  brezza,
+  Financial
 };

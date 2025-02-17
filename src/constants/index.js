@@ -33,7 +33,8 @@ import {
     estampado,
     nike,
     brezza,
-    Course
+    Course,
+    Financial
   } from "../assets";
   
   export const navLinks = [
@@ -227,6 +228,22 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Project created Financial Plataform! (Next 13 + React - July 2024)",
+      description:"Creation of a financial platform where you can view different types of banks, transactions, etc.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next13",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Course,
+      source_code_link: "https://km-banking.vercel.app/sign-in/",
+    },
     {
       name: "Project created Course Plataform! (Next 13 + React - December 2023)",
       description:"Creation of a platform for the distribution of teaching resources, in addition to having a simple section where students can see each course they acquire from the various specialties.",
