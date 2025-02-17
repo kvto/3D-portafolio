@@ -32,7 +32,8 @@ import {
     pizza,
     estampado,
     nike,
-    brezza
+    brezza,
+    Course
   } from "../assets";
   
   export const navLinks = [
@@ -226,6 +227,22 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Project created Course Plataform! (Next 13 + React - December 2023)",
+      description:"Creation of a platform for the distribution of teaching resources, in addition to having a simple section where students can see each course they acquire from the various specialties.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next13",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Course,
+      source_code_link: "https://lms-tutorial-ten.vercel.app/",
+    },
     {
       name: "Project created Simple Nike Store Page! (React + Vite - September 2023)",
       description:"Simple page dedicated to providing information regarding the nike depostiva brand, the page is divided into the most popular products, offers, products in general, testimonials from different customers",
