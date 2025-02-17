@@ -50,6 +50,8 @@ import nike from "./nike.png"
 import brezza from "./brezza.png"
 import Course from "./Course.jpeg"
 import Financial from "./Financial.jpeg"
+import food from "./Food.jpeg"
+import Medical from "./Medical.jpeg"
 export {
   logo,
   game,
@@ -99,5 +101,7 @@ export {
   estampado,
   nike,
   brezza,
-  Financial
+  Financial,
+  food,
+  Medical
 };

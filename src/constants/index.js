@@ -34,7 +34,9 @@ import {
     nike,
     brezza,
     Course,
-    Financial
+    Financial,
+    food,
+    Medical
   } from "../assets";
   
   export const navLinks = [
@@ -229,6 +231,38 @@ import {
   
   const projects = [
     {
+      name: "Project created Medical Plataform! (Next 13 + React - Octuber 2024)",
+      description:"Creation of a platform where you can schedule medical appointments with different types of doctors, in addition to having an administration panel where you can cancel appointments.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next13",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Medical,
+      source_code_link: "https://plus-care.vercel.app/",
+    },
+    {
+      name: "Project created Food Plataform! (Next 13 + React - September 2024)",
+      description:"Creation of a platform where you can request food orders, as well as manage the branches of all restaurants.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next13",
+          color: "green-text-gradient",
+        },
+      ],
+      image: food,
+      source_code_link: "https://food-aplication-frontend.onrender.com/",
+    },
+    {
       name: "Project created Financial Plataform! (Next 13 + React - July 2024)",
       description:"Creation of a financial platform where you can view different types of banks, transactions, etc.",
       tags: [
@@ -241,7 +275,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: Course,
+      image: Financial,
       source_code_link: "https://km-banking.vercel.app/sign-in/",
     },
     {
