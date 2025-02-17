@@ -243,7 +243,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: Medical,
+      image: wordpress,
       source_code_link: "https://github.com/kvto/Wordpress/blob/main/README.md",
     },
     {
