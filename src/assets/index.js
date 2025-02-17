@@ -48,7 +48,7 @@ import estampado from "./estampado.png"
 import techno from "./company/techno.png"
 import nike from "./nike.png"
 import brezza from "./brezza.png"
-
+import Course from "./Course.jpg"
 export {
   logo,
   game,
@@ -64,6 +64,7 @@ export {
   web,
   github,
   menu,
+  Course,
   close,
   css,
   docker,
