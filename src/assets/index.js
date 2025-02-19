@@ -52,6 +52,7 @@ import Course from "./Course.jpeg"
 import Financial from "./Financial.jpeg"
 import food from "./Food.jpeg"
 import Medical from "./Medical.jpeg"
+import enlace from "./enlace.png"
 export {
   logo,
   game,
@@ -103,5 +104,6 @@ export {
   brezza,
   Financial,
   food,
-  Medical
+  Medical,
+  enlace
 };

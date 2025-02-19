@@ -245,6 +245,7 @@ import {
       ],
       image: wordpress,
       source_code_link: "https://github.com/kvto/Wordpress/blob/main/README.md",
+      deploy_code_link: "https://github.com/kvto/Wordpress/blob/main/README.md"
     },
     {
       name: "Project created Medical Plataform! (Next 13 + React - Octuber 2024)",
@@ -260,7 +261,8 @@ import {
         },
       ],
       image: Medical,
-      source_code_link: "https://plus-care.vercel.app/",
+      source_code_link: "https://github.com/kvto/PlusCare",
+      deploy_code_link: "https://plus-care.vercel.app/",
     },
     {
       name: "Project created Food Plataform! (Next 13 + React - September 2024)",
