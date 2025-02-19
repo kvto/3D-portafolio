@@ -278,7 +278,8 @@ import {
         },
       ],
       image: food,
-      source_code_link: "https://food-aplication-frontend.onrender.com/",
+      source_code_link: "https://github.com/kvto/food-aplication-frontend", 
+      deploy_code_link: "https://food-aplication-frontend.onrender.com/",
     },
     {
       name: "Project created Financial Plataform! (Next 13 + React - July 2024)",
@@ -294,7 +295,8 @@ import {
         },
       ],
       image: Financial,
-      source_code_link: "https://km-banking.vercel.app/sign-in/",
+      source_code_link: "https://github.com/kvto/km_banking", 
+      deploy_code_link: "https://km-banking.vercel.app/sign-in/",
     },
     {
       name: "Project created Course Plataform! (Next 13 + React - December 2023)",
@@ -310,7 +312,8 @@ import {
         },
       ],
       image: Course,
-      source_code_link: "https://lms-tutorial-ten.vercel.app/",
+      source_code_link: "https://github.com/kvto/lms-tutorial", 
+      deploy_code_link: "https://lms-tutorial-ten.vercel.app/",
     },
     {
       name: "Project created Simple Nike Store Page! (React + Vite - September 2023)",
@@ -330,7 +333,8 @@ import {
         },
       ],
       image: nike,
-      source_code_link: "https://app-nike.vercel.app/",
+      source_code_link: "https://github.com/kvto/app-nike", 
+      deploy_code_link: "https://app-nike.vercel.app/",
     },
     {
       name: "Project created Stamping emulator! (React + Vite - September 2023)",
@@ -350,7 +354,8 @@ import {
         },
       ],
       image: estampado,
-      source_code_link: "https://threejs-ecru.vercel.app/",
+      source_code_link: "https://github.com/kvto/threejs", 
+      deploy_code_link: "https://threejs-ecru.vercel.app/",
     },
     {
       name: "Project created Page Delivery! (React - Augost 2023)",
@@ -370,7 +375,8 @@ import {
         },
       ],
       image: pizza,
-      source_code_link: "https://app-delivery-pied.vercel.app/",
+      source_code_link: "https://github.com/kvto/app-delivery", 
+      deploy_code_link: "https://app-delivery-pied.vercel.app/",
     },
     {
       name: "Project created Videogame 2D! (Unity C# - Abril 2023)",
@@ -392,6 +398,7 @@ import {
       ],
       image: game,
       source_code_link: "https://github.com/kvto/Videogame2D",
+      deploy_code_link: "https://github.com/kvto/Videogame2D",
     },
     {
       name: "Project created Virtual Reality mobile application! (Unity C# & Vuforia - Febrero 2023)",
@@ -413,6 +420,7 @@ import {
       ],
       image: vr,
       source_code_link: "https://github.com/kvto/ARProject2",
+      deploy_code_link: "https://github.com/kvto/ARProject2",
     },
     {
       name: "Page Mantenimientoindustriales (Wordpress & Elementor - April 2023)",
@@ -455,6 +463,7 @@ import {
       ],
       image: store1,
       source_code_link: "https://github.com/kvto/2022-storeAngular",
+      deploy_code_link: "https://github.com/kvto/2022-storeAngular",
     },
     {
       name: "Project Virtual Store - Ecommerce (React.js - June 2022)",
@@ -476,6 +485,7 @@ import {
       ],
       image: store2,
       source_code_link: "https://github.com/kvto/2022-ecommerce",
+      deploy_code_link: "https://ecommerce-kjmz.netlify.app/",
     },
     {
       name: "Project created Store! (Typescript - Abril 2023)",
