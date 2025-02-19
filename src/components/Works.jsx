@@ -13,7 +13,10 @@ import { fadeIn, textVariant } from '../utils/motion'
 const ProjectCard = ({ index, name, description, tags,
 image, source_code_link}) => {
   return(
-    <>
+    <motion.div 
+    className="my-works"
+    variants={fadeIn("up", "spring",
+    index * 0.5, 0.75)}>
       <Tilt
       options={{
         max: 45,
@@ -58,14 +61,16 @@ image, source_code_link}) => {
           ))}
         </div>
       </Tilt>
-    </>
+    </motion.div>
   )
 }
 
 const Works = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
+    <motion.div 
+    className="my-works"
+    variants={textVariant()}>
       <p className={styles.sectionSubText}>
         My work</p>
       <p className={styles.sectionHeadText}>
@@ -74,6 +79,7 @@ const Works = () => {
 
     <div className="w-full flex">
       <motion.p
+      className="my-works"
       variants="mt-3 text-secondary text-[17px] max-w-3xl
       leading-[30px]">
       The following projects show my skills and experience 
